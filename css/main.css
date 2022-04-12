@@ -5,6 +5,8 @@ body {
 
 div {
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 body,
@@ -110,6 +112,7 @@ a {
 .header .site-list>ul>li {
     float: left;
 }
+
 .header .site-list>ul>li.site-category {
     position: relative;
     z-index: 3;
@@ -126,7 +129,7 @@ a {
 }
 
 
-ul {
+/* ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -134,7 +137,7 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+} */
 
 ul,
 ol {
@@ -180,11 +183,287 @@ input {
     float: left;
 }
 
-.header .site-search form .search-btn {
+.header .site-search form .iconfont {
     margin-left: -1px;
     width: 50px;
     height: 50px;
     border: 1px solid #e0e0e0;
     float: left;
     background-color: #ffffff;
+}
+
+.site-content {
+    margin-top: 25px;
+    height: auto;
+}
+
+
+.site-content .category-list {
+    display: inline-block;
+    /* height: auto; */
+    width: 234px;
+    background-color: #9f9999;
+}
+
+.site-content .category-list ul {
+    width: 234px;
+
+    height: 500px;
+
+}
+
+
+.site-content .category-list li {
+
+
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.site-content .category-list li a {
+    color: #333333;
+    font-size: 14px;
+}
+
+
+.site-content .category-list li a span {
+    float: right;
+    margin-right: 30px;
+    font-size: 24px;
+    padding: 0;
+}
+
+.phone {
+    display: inline-block;
+    height: 500px;
+    width: 970px;
+
+
+}
+
+
+.phone img {
+
+    height: 500px;
+    width: 970px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.content-sub {
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+.content-sub .content-channel {
+    float: left;
+    width: 234px;
+}
+
+
+.content-sub .content-channel ul {
+    background-color: #5f5750;
+    font-size: 14px;
+    
+
+}
+
+.content-sub .content-channel ul li {
+    float: left;
+    /* 水平三等分 */
+    width: 33.33%;
+    height: 85px;
+    background-color: bisque;
+    /* align:center; */
+}
+
+.content-sub .content-channel ul li a {
+    float: left;
+    /* display: inline; */
+}
+
+.content-sub .content-list {
+    float: left;
+    width: 992px;
+}
+
+.content-sub .content-list ul {
+    width: 100%;
+}
+
+
+
+.content-sub .content-list ul li {
+    float: left;
+    width: 33.33%;
+      
+}
+
+.content-sub .content-list ul li a {
+    display: block;
+    height: 170px;
+}
+
+.content-sub .content-list ul li a img {
+    width: 316px;
+    height: 170px;
+}
+
+
+.content-banner {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.content-banner a {
+    display: block;
+    
+    height: 120px;
+}
+
+.content-banner a img {
+    width: 1213px;
+    height: 120px;
+}
+
+.content-desc {
+    height: 700px;
+    padding-top: 22px;
+    background-color: #f5f5f5;
+}
+
+.content-desc .box-hd {
+    height: 58px;
+    position: relative;
+}
+
+.content-desc .box-hd h2 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.content-desc .box-hd .more {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content-desc .box-hd .more a {
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+}
+
+
+.box-bd .row-l {
+    float: left;
+    width: 234px;
+}
+
+
+.box-bd .row-r {
+    float: left;
+    width: 992px;
+}
+
+
+.box-bd .row-r ul li {
+    float: left;
+    height: 260px;
+    padding: 20px 0;
+    margin-left: 14px;
+    width: 234px;
+}
+
+/* 内容居中 */
+h3{
+    text-align: center;
+}
+
+p.desc{
+    text-align: center;
+}
+
+p.price{
+    text-align: center;
+    
+}
+
+.price span{
+     color: #f65516;;
+}
+
+.footer-up{
+    padding: 40px 0;
+    border-bottom: #9f9999 1px solid;
+}
+
+.footer-up ul li{
+    float: left;
+    width:19% ;
+    text-align: center;
+    border-left: #9f9999 1px solid;
+
+}
+
+.footer-up ul a:first
+{
+
+    
+    border-left: none;
+}
+
+
+
+
+.footer-down{
+    padding: 10px 0;
+
+}
+
+.footer .footer-down .col-links{
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+    width: 12%;
+}
+
+.footer .footer-down .col-links dt{
+ 
+    font-size: larger;
+    margin-bottom: 5px;
+}
+.footer .footer-down .col-links dd{
+ 
+    margin: 10px 0;
+}
+
+.footer .footer-down .col-contact{
+    float: right;
+    width: 287px;
+    height: 112px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+    
+}
+
+.footer .footer-down .col-contact p{
+    margin: 10px 0;
+    
+}
+.phoneNumber{
+    color: #f65516;
+    font-size: larger;
+}
+
+.footer .footer-down .col-contact a{
+    text-align: center;
+    
 }
